@@ -3,7 +3,3 @@ os: linux
 files:
   - source: \index.html
     destination: /var/
-hooks:
-  BeforeInstall:
-    - location: \before-install.bat
-      timeout: 900
